@@ -1,12 +1,12 @@
 class AppConstants {
-  static const String NOW_SHOWING = 'now_showing';
-  static const String POPULAR = 'popular';
-  static const String LENGTH = 'Length';
-  static const String LANGUAGE = 'Language';
-  static const String RATING = 'Rating';
-  static const String DESCRIPTION = 'Description';
-  static const String CASTS = 'Casts';
+  static const String nowShowing = 'now_showing';
+  static const String popular = 'popular';
+  static const String length = 'Length';
+  static const String language = 'Language';
+  static const String rating = 'Rating';
+  static const String description = 'Description';
+  static const String casts = 'Casts';
 
   //App
-  static const String CURRENT_THEME = 'theme';
+  static const String currentTheme = 'theme';
 }
