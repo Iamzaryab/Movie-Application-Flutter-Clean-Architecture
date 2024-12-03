@@ -100,7 +100,7 @@ class MovieDetailBody extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    AppConstants.length,
+                    AppConstants.LENGTH,
                     style: context.textTheme.bodySmall,
                   ),
                   Text(
@@ -112,7 +112,7 @@ class MovieDetailBody extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    AppConstants.language,
+                    AppConstants.LANGUAGE,
                     style: context.textTheme.bodySmall,
                   ),
                   Text(
@@ -124,7 +124,7 @@ class MovieDetailBody extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    AppConstants.rating,
+                    AppConstants.RATING,
                     style: context.textTheme.bodySmall,
                   ),
                   Text(
@@ -139,7 +139,7 @@ class MovieDetailBody extends StatelessWidget {
             height: AppDimens.p20,
           ),
           Text(
-            AppConstants.description,
+            AppConstants.DESCRIPTION,
             style: context.textTheme.titleMedium,
           ),
           SizedBox(
@@ -153,7 +153,7 @@ class MovieDetailBody extends StatelessWidget {
             height: AppDimens.p20,
           ),
           Text(
-            AppConstants.casts,
+            AppConstants.CASTS,
             style: context.textTheme.titleMedium,
           ),
           SizedBox(
